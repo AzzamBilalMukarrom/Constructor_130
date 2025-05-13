@@ -8,3 +8,9 @@ public:
     mahasiswa(int nim, string nama);
 };
 
+// Definisi Counstructor dengan parameter
+mahasiswa ::mahasiswa(int nim, string nama) {
+    cout <<"Constructor Dengan Parameter Terpanggil" << endl;
+    cout << "NIM : " << nim << endl;
+    cout << "NAMA : " << nama << endl;
+}
