@@ -6,3 +6,7 @@ public:
 mahasiswa(); //Constructor mahasiswa
 };
 
+mahasiswa: :mahasiswa(){
+count<<"Constructor Terpanggil"<<endl; //Definisi Constructor
+};
+
