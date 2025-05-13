@@ -7,6 +7,10 @@ mahasiswa(); //Constructor mahasiswa
 };
 
 mahasiswa: :mahasiswa(){
-count<<"Constructor Terpanggil"<<endl; //Definisi Constructor
+cout <<"Constructor Terpanggil"<<endl; //Definisi Constructor
 };
 
+int main(){
+    mahasiswa mhs; //Pembuatan Object
+    return 0;
+}
